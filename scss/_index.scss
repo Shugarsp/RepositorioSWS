@@ -1,0 +1,56 @@
+
+
+.gifVideo{
+    margin: auto;
+    display: block;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+    width: auto;
+    margin-bottom: 30px;
+}
+
+.titleSWS{
+    display: flex;
+    justify-content: center;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+}
+
+    @keyframes aparecer {
+    0% {
+    opacity: 0;
+    }
+    100% {
+    opacity: 1;
+    }
+    }
+
+.albumsIndex{
+    width: 250px;
+    height: auto;
+    margin: 20px;
+}
+
+body main p{
+    text-align: center;
+}
+
+body main{
+    padding: 20px;
+}
+
+.videoHome {
+    text-align: center; 
+    padding: 20px;   
+}
+
+.merchAndEmail {
+    text-align: center;
+    margin: 30px;
+        span{
+    color: red;
+}}
+

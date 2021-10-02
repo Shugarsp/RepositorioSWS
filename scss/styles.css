@@ -1,0 +1,342 @@
+.headerFlex {
+  background-color: #080808;
+  list-style-type: none;
+  font-size: 15px;
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.imgHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: left;
+  width: 60px;
+  height: 60px;
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
+.headerMenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 10px;
+  padding: 20px;
+}
+
+.headerMenu a {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.gifVideo {
+  margin: auto;
+  display: block;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding-top: 20px;
+  width: auto;
+  margin-bottom: 30px;
+}
+
+.titleSWS {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.albumsIndex {
+  width: 250px;
+  height: auto;
+  margin: 20px;
+}
+
+body main p {
+  text-align: center;
+}
+
+body main {
+  padding: 20px;
+}
+
+.videoHome {
+  text-align: center;
+  padding: 20px;
+}
+
+.merchAndEmail {
+  text-align: center;
+  margin: 30px;
+}
+
+.merchAndEmail span {
+  color: red;
+}
+
+.membersBand {
+  margin: 20px;
+}
+
+h4 {
+  margin: 20px;
+  text-align: center;
+}
+
+.flexMain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.containerGallery {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 25% 25% 25%;
+      grid-template-columns: 25% 25% 25%;
+  -ms-grid-rows: 25% 25% 25% 25%;
+      grid-template-rows: 25% 25% 25% 25%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  padding-bottom: 30px;
+      grid-template-areas: "containerImg1 containerImg2 containerImg3" "containerImg4 containerImg5 containerImg6" "containerImg7 containerImg8 containerImg9" "containerImg10 containerImg11 containerImg12";
+}
+
+.containerImg1 {
+  grid-area: "containerImg1";
+  width: 100%;
+}
+
+.containerImg2 {
+  grid-area: "containerImg2";
+  width: 100%;
+}
+
+.containerImg3 {
+  grid-area: "containerImg3";
+  width: 100%;
+}
+
+.containerImg4 {
+  grid-area: "containerImg4";
+  width: 100%;
+}
+
+.containerImg5 {
+  grid-area: "containerImg5";
+  width: 100%;
+}
+
+.containerImg6 {
+  grid-area: "containerImg6";
+  width: 100%;
+}
+
+.containerImg7 {
+  grid-area: "containerImg7";
+  width: 100%;
+}
+
+.containerImg8 {
+  grid-area: "containerImg8";
+  width: 100%;
+}
+
+.containerImg9 {
+  grid-area: "containerImg9";
+  width: 100%;
+}
+
+.containerImg10 {
+  grid-area: "containerImg10";
+  width: 100%;
+}
+
+.containerImg11 {
+  grid-area: "containerImg11";
+  width: 100%;
+}
+
+.containerImg12 {
+  grid-area: "containerImg12";
+  width: 100%;
+}
+
+.flexMain img:hover {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.contactForm {
+  text-align: center;
+  padding: 20px;
+}
+
+form label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px;
+}
+
+.footer {
+  background: -webkit-gradient(linear, left top, left bottom, from(#080808), to(#434343));
+  background: linear-gradient(to bottom, #080808, #434343);
+  list-style-type: none;
+  font-size: 15px;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footerRedes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: auto;
+  padding: 30px;
+}
+
+.footerRedes a {
+  padding: 30px;
+}
+
+.footerRedes a img {
+  width: 40px;
+  height: auto;
+}
+
+.albumsTable {
+  table-layout: fixed;
+  width: 60%;
+  border: 10px white;
+  text-align: center;
+  margin: auto;
+  list-style-type: none;
+  text-align: center;
+}
+
+.albumS {
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Kaisei Tokumin', serif;
+}
+
+html {
+  font-family: 'Kaisei Tokumin', serif;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #080808;
+  color: white;
+  font-size: 15px;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+p {
+  text-align: center;
+}
+
+/*responsive/*/
+@media (max-width: 600px) {
+  .headerMenu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .gifVideo {
+    width: 100%;
+  }
+  .responsive {
+    width: auto;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
