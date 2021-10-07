@@ -11,18 +11,7 @@
           justify-content: center;
 }
 
-.imgHeader {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  float: left;
-  width: 60px;
-  height: 60px;
-  -webkit-filter: invert(100%);
-          filter: invert(100%);
-}
-
-.headerMenu {
+.headerFlex .headerMenu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -34,12 +23,23 @@
   padding: 20px;
 }
 
-.headerMenu a {
+.headerFlex .headerMenu a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   padding: 10px;
   margin: 10px;
+}
+
+.imgHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: left;
+  width: 60px;
+  height: 60px;
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
 }
 
 .gifVideo {
@@ -89,18 +89,12 @@
   }
 }
 
-.albumsIndex {
-  width: 250px;
-  height: auto;
-  margin: 20px;
-}
-
-body main p {
-  text-align: center;
-}
-
-body main {
+.main_title {
   padding: 20px;
+}
+
+.main_title .main__parrafo {
+  text-align: center;
 }
 
 .videoHome {
@@ -117,15 +111,6 @@ body main {
   color: red;
 }
 
-.membersBand {
-  margin: 20px;
-}
-
-h4 {
-  margin: 20px;
-  text-align: center;
-}
-
 .flexMain {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -139,7 +124,7 @@ h4 {
           justify-content: center;
 }
 
-.containerGallery {
+.flexMain .containerGallery {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 25% 25% 25%;
@@ -157,62 +142,62 @@ h4 {
       grid-template-areas: "containerImg1 containerImg2 containerImg3" "containerImg4 containerImg5 containerImg6" "containerImg7 containerImg8 containerImg9" "containerImg10 containerImg11 containerImg12";
 }
 
-.containerImg1 {
+.flexMain .containerGallery .containerImg1 {
   grid-area: "containerImg1";
   width: 100%;
 }
 
-.containerImg2 {
+.flexMain .containerGallery .containerImg2 {
   grid-area: "containerImg2";
   width: 100%;
 }
 
-.containerImg3 {
+.flexMain .containerGallery .containerImg3 {
   grid-area: "containerImg3";
   width: 100%;
 }
 
-.containerImg4 {
+.flexMain .containerGallery .containerImg4 {
   grid-area: "containerImg4";
   width: 100%;
 }
 
-.containerImg5 {
+.flexMain .containerGallery .containerImg5 {
   grid-area: "containerImg5";
   width: 100%;
 }
 
-.containerImg6 {
+.flexMain .containerGallery .containerImg6 {
   grid-area: "containerImg6";
   width: 100%;
 }
 
-.containerImg7 {
+.flexMain .containerGallery .containerImg7 {
   grid-area: "containerImg7";
   width: 100%;
 }
 
-.containerImg8 {
+.flexMain .containerGallery .containerImg8 {
   grid-area: "containerImg8";
   width: 100%;
 }
 
-.containerImg9 {
+.flexMain .containerGallery .containerImg9 {
   grid-area: "containerImg9";
   width: 100%;
 }
 
-.containerImg10 {
+.flexMain .containerGallery .containerImg10 {
   grid-area: "containerImg10";
   width: 100%;
 }
 
-.containerImg11 {
+.flexMain .containerGallery .containerImg11 {
   grid-area: "containerImg11";
   width: 100%;
 }
 
-.containerImg12 {
+.flexMain .containerGallery .containerImg12 {
   grid-area: "containerImg12";
   width: 100%;
 }
@@ -222,12 +207,13 @@ h4 {
           filter: grayscale(100%);
 }
 
-.contactForm {
+.contact_form {
   text-align: center;
   padding: 20px;
+  width: 100%;
 }
 
-form label {
+.contact__label {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -235,6 +221,13 @@ form label {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 20px;
 }
 
@@ -252,7 +245,7 @@ form label {
           justify-content: center;
 }
 
-.footerRedes {
+.footer .footerRedes {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -264,11 +257,11 @@ form label {
   padding: 30px;
 }
 
-.footerRedes a {
+.footer .footerRedes a {
   padding: 30px;
 }
 
-.footerRedes a img {
+.footer .footerRedes a img {
   width: 40px;
   height: auto;
 }
@@ -283,8 +276,66 @@ form label {
   text-align: center;
 }
 
-.albumS {
+.albums_padre {
   text-align: center;
+}
+
+.albums_padre .albums_gallery {
+  width: 250px;
+  height: auto;
+  margin: 20px;
+  text-align: center;
+}
+
+.membersBand {
+  margin: 20px;
+  text-align: center;
+}
+
+.h4 {
+  margin: 20px;
+  text-align: center;
+}
+
+.card_ppl {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.card_ppl .card_img {
+  text-align: center;
+  width: 150px;
+  height: auto;
+}
+
+.card_ppl .card_img .card_text {
+  text-align: center;
+}
+
+:hover.btn-twitter {
+  color: lightblue;
+}
+
+:hover.btn-facebook {
+  color: blue;
+}
+
+:hover.btn-youtube {
+  color: red;
+}
+
+:hover.btn-spotify {
+  color: green;
+}
+
+:hover.btn-instagram {
+  color: pink;
 }
 
 * {

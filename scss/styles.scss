@@ -1,11 +1,26 @@
 
 @import "header";
 @import "index";
-@import "band";
 @import "gallery";
 @import "contact";
 @import "footer";
 @import "albums";
+@import "band";
+
+$redes: (
+    twitter: lightblue,
+    facebook: blue,
+    youtube: red,
+    spotify: green,
+    instagram: pink
+);
+
+@each $red, $color in $redes {
+    &:hover.btn-#{$red}{
+        color:$color;
+    }
+}
+
 
 * {
     margin:0;
@@ -56,4 +71,3 @@ p {
         width:auto; 
     }
 }
-

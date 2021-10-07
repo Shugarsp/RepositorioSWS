@@ -2,83 +2,70 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
 
-.containerGallery {
-    display: grid;
-    grid-template-columns: 25% 25% 25%;
-    grid-template-rows: 25% 25% 25% 25%;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    padding-bottom: 30px;
-    grid-template-areas:
-        "containerImg1 containerImg2 containerImg3"
-        "containerImg4 containerImg5 containerImg6"
-        "containerImg7 containerImg8 containerImg9"
-        "containerImg10 containerImg11 containerImg12";
-}
+    .containerGallery {
+        display: grid;
+        grid-template-columns: 25% 25% 25%;
+        grid-template-rows: 25% 25% 25% 25%;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding-bottom: 30px;
+        grid-template-areas:
+            "containerImg1 containerImg2 containerImg3"
+            "containerImg4 containerImg5 containerImg6"
+            "containerImg7 containerImg8 containerImg9"
+            "containerImg10 containerImg11 containerImg12";
 
-.containerImg1 {
-    grid-area: "containerImg1";
-    width: 100%;
-}
+    .containerImg1 {
+        grid-area: "containerImg1";
+        width: 100%;}
 
-.containerImg2 {
-    grid-area: "containerImg2";
-    width: 100%;
-}
+    .containerImg2 {
+        grid-area: "containerImg2";
+        width: 100%;}
 
-.containerImg3 {
-    grid-area: "containerImg3";
-    width: 100%;
-}
+    .containerImg3 {
+        grid-area: "containerImg3";
+        width: 100%;}
 
-.containerImg4 {
-    grid-area: "containerImg4";
-    width: 100%;
-}
+    .containerImg4 {
+        grid-area: "containerImg4";
+        width: 100%;}
 
-.containerImg5 {
-    grid-area: "containerImg5";
-    width: 100%;
-}
+    .containerImg5 {
+        grid-area: "containerImg5";
+        width: 100%;}
 
-.containerImg6 {
-    grid-area: "containerImg6";
-    width: 100%;
-}
+    .containerImg6 {
+        grid-area: "containerImg6";
+        width: 100%;}
 
-.containerImg7 {
-    grid-area: "containerImg7";
-    width: 100%;
-}
+    .containerImg7 {
+        grid-area: "containerImg7";
+        width: 100%;}
 
-.containerImg8 {
-    grid-area: "containerImg8";
-    width: 100%;
-}
+    .containerImg8 {
+        grid-area: "containerImg8";
+        width: 100%;}
 
-.containerImg9 {
-    grid-area: "containerImg9";
-    width: 100%;
-}
+    .containerImg9 {
+        grid-area: "containerImg9";
+        width: 100%;}
 
-.containerImg10 {
-    grid-area: "containerImg10";
-    width: 100%;
-}
+    .containerImg10 {
+        grid-area: "containerImg10";
+        width: 100%;}
 
-.containerImg11 {
-    grid-area: "containerImg11";
-    width: 100%;
-}
+    .containerImg11 {
+        grid-area: "containerImg11";
+        width: 100%;}
 
-.containerImg12 {
-    grid-area: "containerImg12";
-    width: 100%;
-}
+    .containerImg12 {
+        grid-area: "containerImg12";
+        width: 100%;}
 
+}}
 
 .flexMain img:hover{
     filter: grayscale(100%);
