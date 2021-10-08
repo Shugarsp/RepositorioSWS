@@ -16,7 +16,7 @@ $redes: (
 );
 
 @each $red, $color in $redes {
-    &:hover.btn-#{$red}{
+    .footerRedes :hover.btn-#{$red}{
         color:$color;
     }
 }
@@ -28,6 +28,9 @@ $redes: (
     font-family: 'Kaisei Tokumin', serif;
 }
 
+$fontsize: 30px;
+
+
 html {
     font-family: 'Kaisei Tokumin', serif;
     font-size: 62.5%;
@@ -36,7 +39,7 @@ html {
 body {
     background-color: #080808;
     color: white;
-    font-size: 15px;
+    font-size: $fontsize / 2;
 }
 
 a {
@@ -55,19 +58,24 @@ p {
     text-align: center;
 }
 
+
 /*responsive/*/
 
 @media (max-width: 600px) {
-    .headerMenu {
+    .headerFlex {
         display: flex;
         flex-direction: column;
     }
 
     .gifVideo{
-        width: 100%;
+        width: 50%;
     }
 
     .responsive{
         width:auto; 
     }
+
+    .main_title{
+        padding: 20px / 2;
+}
 }

@@ -318,23 +318,23 @@
   text-align: center;
 }
 
-:hover.btn-twitter {
+.footerRedes :hover.btn-twitter {
   color: lightblue;
 }
 
-:hover.btn-facebook {
+.footerRedes :hover.btn-facebook {
   color: blue;
 }
 
-:hover.btn-youtube {
+.footerRedes :hover.btn-youtube {
   color: red;
 }
 
-:hover.btn-spotify {
+.footerRedes :hover.btn-spotify {
   color: green;
 }
 
-:hover.btn-instagram {
+.footerRedes :hover.btn-instagram {
   color: pink;
 }
 
@@ -374,7 +374,7 @@ p {
 
 /*responsive/*/
 @media (max-width: 600px) {
-  .headerMenu {
+  .headerFlex {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -384,10 +384,13 @@ p {
             flex-direction: column;
   }
   .gifVideo {
-    width: 100%;
+    width: 50%;
   }
   .responsive {
     width: auto;
+  }
+  .main_title {
+    padding: 20px / 2;
   }
 }
 /*# sourceMappingURL=styles.css.map */
